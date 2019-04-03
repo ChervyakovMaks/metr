@@ -1,0 +1,913 @@
+@import "vars";
+@media screen and (min-width: 1200px) {
+	.hidden-xl {
+		display: none;
+	}
+}
+@media screen and (max-width: 1199px) {
+	.hidden-lg {
+		display: none;
+	}
+}
+@media screen and (max-width: 991px) {
+	.hidden-md {
+		display: none;
+	}
+}
+@media screen and (max-width: 767px) {
+	.hidden-xs {
+		display: none;
+	}
+}
+
+
+@media screen and (max-width: 1199px) {
+	header {
+		.logo {
+			border-right: none;
+			img {
+				margin-top: -16px;
+				margin-right: 10px;
+				&+p {
+					float: none;
+					margin-top: 20px;
+				}
+			}
+		}
+		.mobile-menu-logo {
+			width: 30px;
+			height: 30px;
+			img {
+				width: 30px;
+				height: 30px;
+			}
+			margin-top: 25px;
+		}
+	}
+}
+
+@media screen and (max-width: 767px) {
+	header .head-line .download-price {
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+	header .head-line .buy-concrete {
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+}
+
+@media screen and (max-width: 435px) {
+	header {
+		.logo {
+			img {
+				margin-top: 10px;
+				&+p {
+					display: none;
+				}
+			}
+		}
+		.mobile-menu-logo {
+			margin-right: 10px;
+		}
+	}
+}
+
+
+
+
+
+
+
+/*Блог Blog*/
+@media screen and (max-width: 1199px) {
+	.discount_application {
+		.block-for-border {
+			.sale {
+				margin-left: 10px;
+				p {
+					font-size: 14px;
+				}
+			}
+
+			.for-input {
+				margin-right: 10px;
+			}
+			.for-one-more-margin {
+				margin-left: 10px;
+			}
+			.for-margin-input {
+				margin-right: 10px;
+			}
+		}
+	}
+}
+@media screen and (max-width: 991px) {
+	footer {
+
+	}
+	.blog {
+		h1 {
+			margin-bottom: 30px;
+			font-size: 25px;
+		}
+	}
+	
+	.block-post-item {
+		.post-title {
+			font-size: 12px;
+			line-height: 20px;
+			padding: 15px;
+			padding-bottom: 30px;
+		}
+		.for-img {
+			.for-time {
+				width: 50px;
+				height: 50px;
+				p {
+					&:first-child {
+						font-size: 16px;
+						margin-top: 8px;
+					}
+					&:nth-child(2) {
+						font-size: 9px;
+						line-height: 14px;
+					}
+				}
+			}
+		}
+	}	
+}
+
+
+@media screen and (max-width: 767px) {
+	footer {
+		.social-buttons {
+			li {
+				margin-right: 5%;
+			}
+		}
+		.copyright {
+			&:first-child {
+				font-size: 13px;
+			}
+			&:nth-child(2) {
+				font-size: 13px;
+			}
+		}
+		.footer-mail-title {
+			font-size: 18px;
+		}
+		ul {
+			li {
+				a {
+					font-size: 13px;
+					line-height: 28px;
+				}
+			}
+		}
+	}
+	.discount_application {
+		.block-for-border {
+			.request-title {
+				font-size: 20px;
+				line-height: 40px;
+			}
+			.sale {
+				margin-left: 10px;
+			}
+			.for-input {
+				margin-left: 10px;
+			}
+			.for-margin-input {
+				margin-left: 10px;
+			}
+			.for-one-more-margin {
+				margin-right: 10px;
+				margin-bottom: 30px;
+			}
+		}
+	}
+}
+
+/**/
+
+
+/*Вакансии Job*/
+@media screen and (max-width: 1199px) {
+
+}
+@media screen and (max-width: 991px) {
+
+}
+@media screen and (max-width: 767px) {
+	.jobs {
+		.jobs-warning {
+			p {
+				font-size: 13px;
+				line-height: 17px;
+			}
+		}
+		.vacancy-item {
+			.vacancy-title {
+				font-size: 16px;
+			}
+			.pre-ul-title {
+				font-size: 13px;
+				margin-top: 25px;
+			}
+			ul {
+				margin-bottom: 0;
+				li {
+					font-size: 13px;
+					line-height: 17px;
+				}
+			}
+		}
+	}
+}
+/**/
+
+
+/*Главная Index index main page*/
+@media screen and (max-width: 1199px) {
+	.free-concrete-pump {
+		p {
+			font-size: 12px;
+			line-height: 19px;
+		}
+		button {
+			padding: 8px 15px;
+			font-size: 11px;
+		}
+		.col-lg-12 {
+			img {
+				top: 20px;
+				right: 0;
+				max-width: 400px;
+			}
+		}
+	}
+}
+@media screen and (max-width: 991px) {
+	.main-title {
+		font-size: 25px;
+	}
+
+	.main-banner .second-banner .main-banner-text {
+		font-size: 11px;
+		line-height: 18px;
+	}
+	.main-banner {
+		#main-slider-prev,
+		#main-slider-next {
+			cursor: pointer;
+			position: absolute;
+			top: 22%;
+			margin-top: -43px;
+		}
+		.custom-main-dots {
+			top: 330px;
+			li {
+				width: 10px;
+				height: 10px;
+				button {
+					width: 10px;
+					height: 10px;
+				}
+			}
+		}
+		.first-banner,.second-banner,.third-banner {
+			height: 360px;
+			.main-banner-title {
+				font-size: 28px;
+				line-height: 34px;
+				padding-top: 60px;
+				padding-left: 70px;
+			}
+			ul {
+				margin-bottom: 30px;
+				li {
+					font-size: 11px;
+					line-height: 19px;
+					&:after {
+						margin-top: 5px;
+					}
+				}
+			}
+			button {
+				margin-left: 70px;
+				font-size: 12px;
+				width: 150px;
+				height: 40px;
+			}
+		}
+		.second-banner {
+			.main-banner-text {
+				padding-left: 70px;
+				max-width: 450px;
+				margin-bottom: 20px;
+			}
+		}
+		.third-banner {
+			.main-banner-title  {
+				margin-bottom: 110px;
+			}
+		}
+
+
+		.make-order {
+			.make-order-descr-text {
+				font-size: 13px;
+				max-width: 72%;
+				margin-left: auto;
+				margin-right: auto;
+				br {
+					display: none;
+				}
+			}
+			input[type='text'] {
+				margin-bottom: 30px;
+			}
+		}
+	}
+
+
+	.main-advantages {
+		.col-lg {
+			p {
+				font-size: 11px;
+			}
+		}
+	}
+
+
+
+	.price-list {
+		.download-pdf {
+			margin-top: 10px;
+		}
+
+		.radio-buttons {
+			label {
+				font-size: 12px;
+				padding: 8px 15px;
+			}
+		}
+
+		.result-buttons {
+			button {
+				font-size: 12px;
+			}
+		}
+		table {
+			font-size: 13px;
+		}
+	}
+
+
+	.about-us {
+		.main-title {
+			margin-top: 45px;
+			margin-bottom: 35px;
+		}
+		.about-text {
+			font-size: 14px;
+			line-height: 22px;
+			margin-bottom: 30px;
+		}
+	}
+
+	.our-products {
+		.product-item {
+			min-height: 200px;
+			p {
+				font-size: 13px;
+				line-height: 18px;
+			}
+		}
+	}
+
+	.offer-sale {
+		.main-title {
+			font-size: 25px;
+		}
+		.offer-descr {
+			font-size: 16px;
+		}
+	}
+
+	.free-concrete-pump {
+		p {
+			font-size: 12px;
+			line-height: 19px;
+		}
+		button {
+			padding: 8px 15px;
+			font-size: 11px;
+		}
+		.col-lg-12 {
+			img {
+				top: 20px;
+				right: 0;
+				max-width: 400px;
+			}
+		}
+	}
+
+	.completed-objects {
+		.main-title {
+			font-size: 25px;
+		}
+		.custom-dots {
+			margin-top: 10px;
+		}
+
+		.slide-title {
+			font-size: 18px;
+			margin-bottom: 20px;
+		}
+		.slide-text-descr {
+			font-size: 13px;
+			span {
+				min-width: 100px!important;
+			}
+		}
+		.slide-job-position {
+			font-size: 16px;
+			margin-bottom: 3px;
+		}
+		.slide-job-position-descr {
+			font-size: 13px;
+		}
+	}
+
+	.reviews {
+		background-position: center;
+		background-size: 100% 100%;
+		font-size: 25px;
+	}
+
+	.main-about-company {
+		.about-text {
+			font-size: 14px;
+			line-height: 23px;
+		}
+	}
+
+
+	.main-application-cooperation {
+		.inner-title-descr {
+			font-size: 14px;
+		}
+	}
+
+}
+@media screen and (max-width: 767px) {
+	.price-list table {
+		font-size: 11px;
+		td, th {
+			padding: 10px;
+		}
+	}
+	.main-title {
+		font-size: 20px;
+	}
+	.main-banner .first-banner .main-banner-title, .main-banner .second-banner .main-banner-title, .main-banner .third-banner .main-banner-title {
+		font-size: 20px;
+	}
+	
+	.main-banner {
+		.first-banner,.second-banner,.third-banner {
+			.main-banner-title {
+				br {
+					display: none;
+				}
+				margin-bottom: 20px;
+			}
+		}
+	}
+
+	.price-list {
+		.download-pdf {
+			font-size: 13px;
+			width: 100%;
+			height: 30px;
+		}
+
+		.radio-buttons {
+			label {
+				font-size: 12px;
+				padding: 6px 12px;
+				margin-right: 5px;
+			}
+		}
+
+		.result-buttons {
+			button {
+				float: left;
+				max-width: 144px;
+				height: 70px;
+				padding: 0;
+				min-width: 110px;
+				span {
+					display: block;
+					margin: 0;
+				}
+			}
+		}
+	}	
+
+
+	.about-us {
+		.about-us-item {
+			.for-img {
+				height: 105px;
+			}
+			.about-us-item-title {
+				font-size: 15px;
+				margin-top: 10px;
+				margin-bottom: 5px;
+			}
+			.about-us-item-descr {
+				font-size: 12px;
+				line-height: 18px;
+				padding-left: 10px;
+				padding-right: 10px;
+			}
+		}
+	}
+
+	.offer-sale {
+		.main-title {
+			font-size: 20px;
+		}
+		.offer-descr {
+			font-size: 15px;
+		}
+		.offer-main-p {
+			margin-top: -20px;
+			margin-bottom: 0;
+			padding-top: 40px;
+			font-size: 10px;
+			background-size: contain;
+			br {
+				display: block;
+			}
+		}
+		.col-lg-6 {
+			p {
+				padding: 0;
+				font-size: 13px;
+			}
+		}
+	}
+	.free-concrete-pump .col-lg-12 img {
+		display: none;
+	}
+
+	.completed-objects .slide-title {
+		margin-top: 10px;
+	}
+
+	.reviews {
+		background-image: none;
+		background-color: #ffe459;
+		.main-title {
+			font-size: 18px;
+		}
+		.review-item  {
+			.play-video {
+				margin-top: -20px;
+				margin-left: -20px;
+				width: 40px;
+				height: 40px;
+				img {
+					width: 40px;
+					height: 40px;
+				}
+			}
+		}
+	}
+
+	.main-blog .col-lg-6 a {
+		width: 100%;
+		height: 40px;
+		font-size: 13px;
+		padding: 0;
+		line-height: 40px;
+	}
+
+}
+
+
+@media screen and (max-width: 450px) {
+	.main-banner .first-banner .main-banner-title, .main-banner .second-banner .main-banner-title, .main-banner .third-banner .main-banner-title {
+		padding-left: 0;
+		text-align: center;
+	}
+	.main-banner .first-banner ul, .main-banner .second-banner ul, .main-banner .third-banner ul {
+
+	}
+	.main-banner .first-banner button, .main-banner .second-banner button, .main-banner .third-banner button {
+		margin-left: auto;
+		margin-right: auto;
+		display: block;
+	}
+	.price-list .download-pdf {
+		height: auto;
+		font-size: 9px;
+	}
+	.reviews .for-reviews-slider img {
+		width: 30px;
+		height: 30px;
+	}
+	.reviews .review-item .review-name {
+		font-size: 9px;
+	}
+}
+/**/
+
+
+
+/*Детальная detail*/
+@media screen and (max-width: 991px) {
+	.detail-first-screen {
+		margin-bottom: 0;
+		background-position: left;
+		.detail-first-title {
+			font-size: 50px;
+			line-height: 70px;
+			margin-bottom: 115px;
+			margin-top: 80px;
+		}
+	}
+	.media-form {
+		margin-bottom: 40px;
+		display: block;
+		background-color: #ffe459;
+		.form-block-title {
+			font-size: 25px;
+			font-weight: bold;
+			color: #000;
+			margin-top: 35px;
+			margin-bottom: 35px;
+			text-align: center;
+		}
+		.for-input {
+			width: 100%;
+		}
+		input {
+			margin-bottom: 30px;
+			width: 100%;
+			max-width: 100%;
+			height: 55px;
+			border-radius: 30px;
+			border: none;
+			background-color: #fff;
+			color: #000;
+			padding-left: 50px;
+		}
+		input[type='submit'] {
+			color: #ffffff;
+			font-size: 14px;
+			background-color: #e43434;
+			padding: 0;
+		}
+		.form-descr {
+			font-size: 13px;
+			text-align: center;
+			margin-bottom: 35px;
+			a {
+				color: #000;
+				text-decoration: underline;
+			}
+		}
+	}
+}
+/**/
+
+
+
+
+/*Delivery Доставка*/
+
+@media screen and (max-width: 1199px) {
+	.delivery-first-screen p {
+		font-size: 50px;
+		padding-top: 40px;
+		padding-bottom: 40px;
+	}
+	.delivery-descr p {
+		font-size: 14px;
+		line-height: 23px;
+	}
+	.auto-park-item {
+		max-width: 240px;
+		min-height: 200px;
+		.auto-park-item-title {
+			padding-top: 5px;
+			font-size: 18px;
+			span {
+				font-size: 44px;
+			}
+		}
+		.auto-park-item-type {
+			font-size: 13px;
+			margin-top: -15px;
+		}
+
+		img {
+			max-width: 150%;
+			bottom: -25%;
+			left: 5%;
+		}
+		
+	}
+
+	.delivery-descr-block p {
+		font-size: 25px;
+		padding-left: 20%;
+		padding-right: 20%;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.delivery-descr-block p {
+		font-size: 20px;
+		padding-left: 5%;
+		padding-right: 5%;
+	}
+}
+
+/**/
+
+
+/*Catalog Каталог*/
+@media screen and (max-width: 991px) {
+	.for-open-catalog {
+		display: block;
+		text-align: left;
+	}
+	.open-catalog {
+		font-weight: bold;
+		font-size: 13px;
+		border-radius: 30px;
+		width: 200px;
+		height: 40px;
+		background-color: #ffe459;
+		border: none;
+		text-transform: uppercase;
+	}
+	.catalog-menu {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.catalog-reviews .catalog-reviews-slide .for-img {
+		max-height: 350px;
+	}
+	.catalog-banner {
+		img {
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+		}
+		margin-bottom: 50px;
+	}
+	.catalog-text {
+		.padding-zero {
+			padding-left: 30px;
+			padding-right: 30px;
+		}
+	}
+	.open-catalog {
+		width: 100%;
+		margin-top: -5px;
+	}
+}
+
+
+
+/**/
+
+
+/*Контакты contact*/
+@media screen and (max-width: 991px) {
+	.contact-info {
+		.col-lg-3 {
+			&:nth-child(2),
+			&:first-child {
+				border-bottom: 1px solid #ebebeb;
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.contact-info {
+		.col-lg-3 {
+			min-height: 200px;
+			border-bottom: 1px solid #ebebeb;
+			&:last-child {
+				border: none;
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 500px) {
+	.contact-info {
+		.col-lg-3 {
+			margin-left: 15px;
+			margin-right: 15px;
+		}
+	}
+}
+/**/
+
+
+/* О нас About-us*/
+@media screen and (max-width: 1199px) {
+	.about-us-first-screen {
+		overflow-x: hidden;
+		background-size: cover;
+		background-position: left top;
+	}
+	.about-us-first-screen .bordered-block p:first-child {
+
+	}
+	.about-us-first-screen img {
+		width: 90%;
+		left: 45%;
+	}
+	.about-company .col-lg-6 p {
+		font-size: 14px;
+		line-height: 23px;
+	}
+	.our-advantages .col-lg p {
+		font-size: 11px;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.about-us-first-screen .bordered-block  {
+		p {
+			padding-left: 15px;
+			padding-right: 15px;
+			&:first-child {
+				font-size: 18px;
+				line-height: 26px;
+				padding-top: 25px;
+				margin-bottom: 95px;
+			}
+			&:last-child {
+				font-size: 10px;
+			}
+		}
+	}
+	.about-us-first-screen img {
+		width: 90%;
+		left: 46%;
+	}
+}
+
+/**/
+
+/*Services Услуги*/
+@media screen and (max-width: 1740px) {
+	.services-first-screen .absolut-img {
+		width: 50%;
+	}
+}
+
+@media screen and (max-width: 991px) {
+	.services-first-screen .services-main-title {
+		font-size: 45px;
+		line-height: 70px;
+		br {
+			display: none;
+		}
+		margin-bottom: 270px;
+	}
+	.servies-under-first-screen img {
+		margin-top: 100px;
+	}
+	.services-first-screen .absolut-img {
+		width: 84%;
+		top: 35%;
+	}
+}
+
+@media screen and (max-width: 500px) {
+	.services-first-screen .services-main-title {
+		font-size: 35px;
+		margin-bottom: 140px;
+	}
+	.services-first-screen .absolut-img {
+		width: 90%;
+		top: 39%;
+	}
+}
+/**/
