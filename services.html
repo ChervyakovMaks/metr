@@ -36,7 +36,7 @@
               <button class="download-price">Скачать прайс</button>
             </div>
             <div class="col-xl-2 col-lg-3 col-md-3 col-6">
-              <button class="buy-concrete">Заказать бетон</button>
+              <button class="buy-concrete" data-toggle="modal" data-target="#exampleModal">Заказать бетон</button>
             </div>
           </div>
         </div>
@@ -184,6 +184,91 @@
               </div>
               <input type="submit" value="Отправить заявку">
               <p class="form-rent-descr">Нажимая кнопку отправить, вы даёте своё согласие на <a href="#">обработку персональных</a> данных</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Кнопке которая вызывает модальное окно заявки добавить (data-toggle="modal" data-target="#exampleModal")-->
+    <!--Кнопке которая вызывает модальное окно заказа добавить (data-toggle="modal" data-target="#order-modal")-->
+    <div class="modal fade" id="exampleModal" aria-labelledby="examleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content modal-request">
+          <div class="modal-body">
+            <button class="modal-close" data-dismiss="modal"><img src="assets/templates/default/img/menu-close.svg" alt=""></button>
+            <div class="row">
+              <div class="col-12">
+                <p>Отправить заявку</p>
+                <p>Для уточнения заказа введите ваш номер телефона.</p>
+              </div>
+              <div class="col-12">
+                <div class="for-input for-name">
+                  <input type="text" placeholder="Представьтесь, пожалуйста...">
+                </div>
+                <div class="for-input for-phone">
+                  <input type="text" placeholder="Номер телефона">
+                </div>
+                <input type="submit" value="Отправить">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="order-modal" aria-labelledby="order-modal" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-lg modal-lg-order">
+        <div class="modal-content">
+          <div class="modal-body">
+            <div class="row">
+              <div class="col-12">
+                <p class="order-modal-title">Рассчитать скидку</p>
+                <button class="modal-close" data-dismiss="modal"><img src="assets/templates/default/img/menu-close.svg" alt=""></button>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-12">
+                <p class="order-modal-descr">Вы выбрали:</p>
+              </div>
+              <div class="col-12 table-responsive">
+                <table class="table">
+                  <tbody>
+                    <tr>
+                      <th scope="row">М550</th>
+                      <td>Керамзитобетон БСЛ В7,5 (Керамзит) D1600</td>
+                      <td>123 м<sup>3</sup></td>
+                      <td>510450 руб.</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">М550</th>
+                      <td>Керамзитобетон БСЛ В7,5 (Керамзит) D1600</td>
+                      <td>123 м<sup>3</sup></td>
+                      <td>510450 руб.</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <div class="row order-modal-btn-row">
+              <div class="col-md-6 col-6">
+                <button>Добавить товары</button>
+              </div>
+              <div class="col-md-6 col-6">
+                <p class="order-modal-cost">На сумму: <span>510450 руб.</span></p>
+              </div>
+            </div>
+            <div class="row order-modal-contact">
+              <div class="col-12">
+                <p class="order-modal-title">Ваши контакты</p>
+              </div>
+              <div class="col-lg-4 col-md-6">
+                <input type="text" placeholder="Введите имя...">
+              </div>
+              <div class="col-lg-4 col-md-6">
+                <input type="text" placeholder="Введите телефон...">
+              </div>
+              <div class="col-lg-4 offset-lg-0 col-md-6 offset-md-3">
+                <input type="submit" value="Рассчитать скидку">
+              </div>
             </div>
           </div>
         </div>
