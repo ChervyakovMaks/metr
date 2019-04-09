@@ -77,11 +77,11 @@
           <div class="col-xl-8 hidden-lg">
             <ul class="main-menu">
               <li class="trigger-submenu"> <a href="#">Продукция<img src="assets/templates/default/img/Artboard_5.svg" alt=""></a></li>
-              <li> <a href="#">О заводе</a></li>
-              <li> <a href="#">Доставка</a></li>
-              <li> <a href="#">Услуги</a></li>
+              <li> <a href="about-us.html">О заводе</a></li>
+              <li> <a href="delivery.html">Доставка</a></li>
+              <li> <a href="services.html">Услуги</a></li>
               <li> <a href="#">Информация</a></li>
-              <li> <a href="#">Контакты</a></li>
+              <li> <a href="contact.html">Контакты</a></li>
             </ul>
           </div>
           <div class="col-lg-2 offset-lg-5 col-md-5 col-2 hidden-xl text-right">
@@ -184,6 +184,181 @@
               </div>
               <input type="submit" value="Отправить заявку">
               <p class="form-rent-descr">Нажимая кнопку отправить, вы даёте своё согласие на <a href="#">обработку персональных</a> данных</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid price-list">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 col-md-6 col-6">
+            <p class="main-title">Прайс-лист</p>
+          </div>
+          <div class="col-lg-6 col-md-6 col-6 text-right">
+            <button class="download-pdf">Скачать в формате PDF</button>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="radio-buttons">
+              <div>
+                <input id="radio1" type="checkbox" name="option">
+                <label for="radio1">Тощий бетон</label>
+              </div>
+              <div>
+                <input id="radio2" type="checkbox" name="option" checked="">
+                <label for="radio2">Керамзибетон</label>
+              </div>
+              <div>
+                <input id="radio3" type="checkbox" name="option">
+                <label for="radio3">Мелкозернистый бетон</label>
+              </div>
+              <div>
+                <input id="radio4" type="checkbox" name="option">
+                <label for="radio4">Мостовой бетон</label>
+              </div>
+              <div>
+                <input id="radio5" type="checkbox" name="option">
+                <label for="radio5">Цементное молочко</label>
+              </div>
+              <div>
+                <input id="radio6" type="checkbox" name="option">
+                <label for="radio6">Цементный раствор</label>
+              </div>
+              <div>
+                <input id="radio7" type="checkbox" name="option">
+                <label for="radio7">Тяжёлый бетон</label>
+              </div>
+              <div>
+                <input id="radio8" type="checkbox" name="option">
+                <label for="radio8">Бетон для фундамента</label>
+              </div>
+              <div>
+                <input id="radio9" type="checkbox" name="option">
+                <label for="radio9">Бетон для бассейна</label>
+              </div>
+              <div>
+                <input id="radio10" type="checkbox" name="option">
+                <label for="radio10">Фибробетон</label>
+              </div>
+              <div>
+                <input id="radio11" type="checkbox" name="option">
+                <label for="radio11">Гидротехнический бетон</label>
+              </div>
+              <div class="clear"></div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12 text-right result-buttons">
+            <button>Всего выбранно товаров <span>1</span></button>
+            <button>На сумму: <span>10600 руб.</span></button>
+            <button data-toggle="modal" data-target="#order-modal">Рассчитать общую скидку</button>
+          </div>
+          <div class="col-lg-12 table-responsive">
+            <table class="table">
+              <thead>
+                <tr>
+                  <th scope="col">Марка</th>
+                  <th scope="col">Наименование</th>
+                  <th scope="col">Стоимость</th>
+                  <th scope="col">Количество кубов</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">М100</th>
+                  <td>Керамзитобетон БСЛ В7,5 (Керамзит) D1600</td>
+                  <td>2650 руб.</td>
+                  <td>
+                    <div class="block"> 
+                      <button class="plus-btn"></button>
+                      <input type="text" name="name" value="1">
+                      <button class="minus-btn"></button>
+                      <div class="clear"> </div>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <th scope="row">М150</th>
+                  <td>Керамзитобетон БСЛ В12,5 (Керамзит) D1600</td>
+                  <td>2870 руб.</td>
+                  <td>
+                    <div class="block"> 
+                      <button class="plus-btn"></button>
+                      <input type="text" name="name" value="1">
+                      <button class="minus-btn"></button>
+                      <div class="clear"></div>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <th scope="row">М200</th>
+                  <td>Керамзитобетон БСЛ В15 (Керамзит) D1600</td>
+                  <td>3150 руб.</td>
+                  <td>
+                    <div class="block"> 
+                      <button class="plus-btn"></button>
+                      <input type="text" name="name" value="1">
+                      <button class="minus-btn"></button>
+                      <div class="clear"></div>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <th scope="row">М250</th>
+                  <td>Керамзитобетон БСЛ В20 (Керамзит) D1600</td>
+                  <td>3300 руб.</td>
+                  <td>
+                    <div class="block"> 
+                      <button class="plus-btn"></button>
+                      <input type="text" name="name" value="1">
+                      <button class="minus-btn"></button>
+                      <div class="clear"></div>
+                    </div>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid discount_application">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="block-for-border">
+              <div class="row">
+                <div class="col-12">
+                  <p class="request-title">Оставьте заявку на доставку бетона<br> и вы получите:</p>
+                </div>
+                <div class="col-xl-4 offset-xl-2 col-md-6">
+                  <div class="sale"> 
+                    <div class="for-img"><img src="assets/templates/default/img/Artboard_19.svg" alt=""></div>
+                    <p><span>10% Скидку</span> на продукцию</p>
+                  </div>
+                  <div class="sale">
+                    <div class="for-img"><img src="assets/templates/default/img/Artboard_18.svg" alt=""></div>
+                    <p><span>БЕСПЛАТНУЮ</span> доставку</p>
+                  </div>
+                  <div class="for-one-more-margin">
+                    <p class="last-request">Осталось 2 заявки со скидкой</p>
+                  </div>
+                </div>
+                <div class="col-xl-4 col-md-6">
+                  <div class="for-input for-name">
+                    <input type="text" placeholder="Ваше имя...">
+                  </div>
+                  <div class="for-input for-phone">
+                    <input type="text" placeholder="Ваш телефон...">
+                  </div>
+                  <div class="for-margin-input">
+                    <input type="submit" value="Отправить">
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>

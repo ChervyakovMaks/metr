@@ -292,3 +292,27 @@ $('.header-subsub-menu-title').click(function(){
 $('.logo').click(function(){
 	location.href = '/';
 });
+
+
+
+
+$('.offer-sale .first-step .next-step').click(function(){
+	$('.offer-sale .first-step').slideUp();
+	$('.offer-sale .second-step').slideDown();
+});
+
+$('.offer-sale .second-step .next-step').click(function(){
+	$('.offer-sale .second-step').slideUp();
+	$('.offer-sale .third-step').slideDown();
+});
+
+$('.offer-sale .third-step .next-step').click(function(){
+	$('.offer-sale .third-step').slideUp();
+	$('.offer-sale .fourth-step').slideDown();
+});
+
+$('.offer-sale .fourth-step .next-step').click(function(){
+	$('.offer-sale .fourth-step').slideUp();
+	$('.offer-sale .final-step').slideDown();
+	$('.offer-main-p').slideUp();
+});
